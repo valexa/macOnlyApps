@@ -1,0 +1,16 @@
+//
+// Prefix header for all source files of the 'AppsBar' target in the 'AppsBar' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#define BUTTON_OBSERVER_NAME_STRING @"AppsBarButtonEvent"
+#define MAIN_OBSERVER_NAME_STRING @"AppsBarEvent"
+
+#define ICON_SIZE 64
+#define ICON_PAD 16
+#define MENUBAR_HEIGHT 22
+
+#define DEGREES_TO_RADIANS(angle) (angle / 180.0 * M_PI)

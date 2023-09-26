@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A1256C71403C07E00F642D1 /* FSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1256C31403C07E00F642D1 /* FSWindow.m */; };
+		4A1256C81403C07E00F642D1 /* ToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1256C41403C07E00F642D1 /* ToolBar.m */; };
+		4A1257221403C1FF00F642D1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1257211403C1FF00F642D1 /* Security.framework */; };
+		4A12572C1403C28400F642D1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A12572B1403C28400F642D1 /* IOKit.framework */; };
+		4A260BB113FFABFB009E341C /* fullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A260BB013FFABFB009E341C /* fullscreen.png */; };
+		4A260BC813FFB94F009E341C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A260BC713FFB94F009E341C /* QuartzCore.framework */; };
+		4A28D9991407C5BA00FA0469 /* middle.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4A28D9981407C5BA00FA0469 /* middle.pdf */; };
+		4A2D4E721451522B0004AC17 /* VAValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E711451522B0004AC17 /* VAValidation.m */; };
+		4A2D4EAA145152610004AC17 /* asn_codecs_prim.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E76145152610004AC17 /* asn_codecs_prim.c */; };
+		4A2D4EAB145152610004AC17 /* asn_SET_OF.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E79145152610004AC17 /* asn_SET_OF.c */; };
+		4A2D4EAC145152610004AC17 /* ber_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E7C145152610004AC17 /* ber_decoder.c */; };
+		4A2D4EAD145152610004AC17 /* ber_tlv_length.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E7E145152610004AC17 /* ber_tlv_length.c */; };
+		4A2D4EAE145152610004AC17 /* ber_tlv_tag.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E80145152610004AC17 /* ber_tlv_tag.c */; };
+		4A2D4EAF145152610004AC17 /* BIT_STRING.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E82145152610004AC17 /* BIT_STRING.c */; };
+		4A2D4EB0145152610004AC17 /* constr_SEQUENCE.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E84145152610004AC17 /* constr_SEQUENCE.c */; };
+		4A2D4EB1145152610004AC17 /* constr_SET_OF.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E86145152610004AC17 /* constr_SET_OF.c */; };
+		4A2D4EB2145152610004AC17 /* constr_TYPE.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E88145152610004AC17 /* constr_TYPE.c */; };
+		4A2D4EB3145152610004AC17 /* constraints.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E8A145152610004AC17 /* constraints.c */; };
+		4A2D4EB4145152610004AC17 /* der_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E8C145152610004AC17 /* der_encoder.c */; };
+		4A2D4EB5145152610004AC17 /* ethernet.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E8E145152610004AC17 /* ethernet.c */; };
+		4A2D4EB6145152610004AC17 /* INTEGER.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E90145152610004AC17 /* INTEGER.c */; };
+		4A2D4EB7145152610004AC17 /* NativeEnumerated.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E92145152610004AC17 /* NativeEnumerated.c */; };
+		4A2D4EB8145152610004AC17 /* NativeInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E94145152610004AC17 /* NativeInteger.c */; };
+		4A2D4EB9145152610004AC17 /* OCTET_STRING.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E96145152610004AC17 /* OCTET_STRING.c */; };
+		4A2D4EBA145152610004AC17 /* Payload.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E98145152610004AC17 /* Payload.c */; };
+		4A2D4EBB145152610004AC17 /* per_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E9A145152610004AC17 /* per_decoder.c */; };
+		4A2D4EBC145152610004AC17 /* per_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E9C145152610004AC17 /* per_encoder.c */; };
+		4A2D4EBD145152610004AC17 /* per_opentype.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4E9E145152610004AC17 /* per_opentype.c */; };
+		4A2D4EBE145152610004AC17 /* per_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4EA0145152610004AC17 /* per_support.c */; };
+		4A2D4EBF145152610004AC17 /* ReceiptAttribute.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4EA2145152610004AC17 /* ReceiptAttribute.c */; };
+		4A2D4EC0145152610004AC17 /* xer_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4EA4145152610004AC17 /* xer_decoder.c */; };
+		4A2D4EC1145152610004AC17 /* xer_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4EA6145152610004AC17 /* xer_encoder.c */; };
+		4A2D4EC2145152610004AC17 /* xer_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D4EA8145152610004AC17 /* xer_support.c */; };
+		4A34B4D713FAD28400D1707E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A34B4D613FAD28400D1707E /* Cocoa.framework */; };
+		4A34B4E113FAD28400D1707E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A34B4DF13FAD28400D1707E /* InfoPlist.strings */; };
+		4A34B4E313FAD28400D1707E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A34B4E213FAD28400D1707E /* main.m */; };
+		4A34B4E713FAD28400D1707E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A34B4E513FAD28400D1707E /* Credits.rtf */; };
+		4A34B4EA13FAD28400D1707E /* TTScoreBoardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A34B4E913FAD28400D1707E /* TTScoreBoardAppDelegate.m */; };
+		4A34B4ED13FAD28400D1707E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A34B4EB13FAD28400D1707E /* MainMenu.xib */; };
+		4A34B4F513FAD28400D1707E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A34B4F413FAD28400D1707E /* SenTestingKit.framework */; };
+		4A34B4F613FAD28400D1707E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A34B4D613FAD28400D1707E /* Cocoa.framework */; };
+		4A34B4FE13FAD28400D1707E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A34B4FC13FAD28400D1707E /* InfoPlist.strings */; };
+		4A34B50013FAD28400D1707E /* TTScoreBoardTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4A34B4FF13FAD28400D1707E /* TTScoreBoardTests.h */; };
+		4A34B50213FAD28400D1707E /* TTScoreBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A34B50113FAD28400D1707E /* TTScoreBoardTests.m */; };
+		4A34B50C13FAD2A200D1707E /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4A34B50B13FAD2A200D1707E /* Icon.icns */; };
+		4A34B52413FAE1AE00D1707E /* digital-7.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A34B52113FAE16400D1707E /* digital-7.ttf */; };
+		4A34B52813FAEB5D00D1707E /* tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A34B52713FAEB5D00D1707E /* tile.png */; };
+		4A40ED6C13FBDBA9008EF03D /* flip.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4A40ED6A13FBDBA9008EF03D /* flip.pdf */; };
+		4A40ED6D13FBDBA9008EF03D /* minus.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4A40ED6B13FBDBA9008EF03D /* minus.pdf */; };
+		4A8717D913FC51ED00FF1BB1 /* reset.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8717D813FC51ED00FF1BB1 /* reset.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A34B4F713FAD28400D1707E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A34B4C913FAD28300D1707E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A34B4D113FAD28400D1707E;
+			remoteInfo = TTScoreBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A34B52313FAE19800D1707E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Fonts;
+			dstSubfolderSpec = 7;
+			files = (
+				4A34B52413FAE1AE00D1707E /* digital-7.ttf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A1256C31403C07E00F642D1 /* FSWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWindow.m; sourceTree = "<group>"; };
+		4A1256C41403C07E00F642D1 /* ToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBar.m; sourceTree = "<group>"; };
+		4A1256C51403C07E00F642D1 /* FSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWindow.h; sourceTree = "<group>"; };
+		4A1256C61403C07E00F642D1 /* ToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBar.h; sourceTree = "<group>"; };
+		4A1257211403C1FF00F642D1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4A12572B1403C28400F642D1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		4A260BB013FFABFB009E341C /* fullscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullscreen.png; sourceTree = "<group>"; };
+		4A260BC713FFB94F009E341C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../../../System/Library/Frameworks/QuartzCore.framework; sourceTree = "<group>"; };
+		4A28D9981407C5BA00FA0469 /* middle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = middle.pdf; sourceTree = "<group>"; };
+		4A2D4E6F145152240004AC17 /* VAValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VAValidation.h; path = ../../VAValidation.h; sourceTree = "<group>"; };
+		4A2D4E711451522B0004AC17 /* VAValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VAValidation.m; path = ../../VAValidation.m; sourceTree = "<group>"; };
+		4A2D4E74145152610004AC17 /* asn_application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_application.h; sourceTree = "<group>"; };
+		4A2D4E75145152610004AC17 /* asn_codecs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_codecs.h; sourceTree = "<group>"; };
+		4A2D4E76145152610004AC17 /* asn_codecs_prim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asn_codecs_prim.c; sourceTree = "<group>"; };
+		4A2D4E77145152610004AC17 /* asn_codecs_prim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_codecs_prim.h; sourceTree = "<group>"; };
+		4A2D4E78145152610004AC17 /* asn_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_internal.h; sourceTree = "<group>"; };
+		4A2D4E79145152610004AC17 /* asn_SET_OF.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asn_SET_OF.c; sourceTree = "<group>"; };
+		4A2D4E7A145152610004AC17 /* asn_SET_OF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_SET_OF.h; sourceTree = "<group>"; };
+		4A2D4E7B145152610004AC17 /* asn_system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_system.h; sourceTree = "<group>"; };
+		4A2D4E7C145152610004AC17 /* ber_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ber_decoder.c; sourceTree = "<group>"; };
+		4A2D4E7D145152610004AC17 /* ber_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ber_decoder.h; sourceTree = "<group>"; };
+		4A2D4E7E145152610004AC17 /* ber_tlv_length.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ber_tlv_length.c; sourceTree = "<group>"; };
+		4A2D4E7F145152610004AC17 /* ber_tlv_length.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ber_tlv_length.h; sourceTree = "<group>"; };
+		4A2D4E80145152610004AC17 /* ber_tlv_tag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ber_tlv_tag.c; sourceTree = "<group>"; };
+		4A2D4E81145152610004AC17 /* ber_tlv_tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ber_tlv_tag.h; sourceTree = "<group>"; };
+		4A2D4E82145152610004AC17 /* BIT_STRING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BIT_STRING.c; sourceTree = "<group>"; };
+		4A2D4E83145152610004AC17 /* BIT_STRING.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIT_STRING.h; sourceTree = "<group>"; };
+		4A2D4E84145152610004AC17 /* constr_SEQUENCE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constr_SEQUENCE.c; sourceTree = "<group>"; };
+		4A2D4E85145152610004AC17 /* constr_SEQUENCE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constr_SEQUENCE.h; sourceTree = "<group>"; };
+		4A2D4E86145152610004AC17 /* constr_SET_OF.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constr_SET_OF.c; sourceTree = "<group>"; };
+		4A2D4E87145152610004AC17 /* constr_SET_OF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constr_SET_OF.h; sourceTree = "<group>"; };
+		4A2D4E88145152610004AC17 /* constr_TYPE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constr_TYPE.c; sourceTree = "<group>"; };
+		4A2D4E89145152610004AC17 /* constr_TYPE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constr_TYPE.h; sourceTree = "<group>"; };
+		4A2D4E8A145152610004AC17 /* constraints.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constraints.c; sourceTree = "<group>"; };
+		4A2D4E8B145152610004AC17 /* constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constraints.h; sourceTree = "<group>"; };
+		4A2D4E8C145152610004AC17 /* der_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = der_encoder.c; sourceTree = "<group>"; };
+		4A2D4E8D145152610004AC17 /* der_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = der_encoder.h; sourceTree = "<group>"; };
+		4A2D4E8E145152610004AC17 /* ethernet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ethernet.c; sourceTree = "<group>"; };
+		4A2D4E8F145152610004AC17 /* ethernet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ethernet.h; sourceTree = "<group>"; };
+		4A2D4E90145152610004AC17 /* INTEGER.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = INTEGER.c; sourceTree = "<group>"; };
+		4A2D4E91145152610004AC17 /* INTEGER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTEGER.h; sourceTree = "<group>"; };
+		4A2D4E92145152610004AC17 /* NativeEnumerated.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NativeEnumerated.c; sourceTree = "<group>"; };
+		4A2D4E93145152610004AC17 /* NativeEnumerated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeEnumerated.h; sourceTree = "<group>"; };
+		4A2D4E94145152610004AC17 /* NativeInteger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NativeInteger.c; sourceTree = "<group>"; };
+		4A2D4E95145152610004AC17 /* NativeInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeInteger.h; sourceTree = "<group>"; };
+		4A2D4E96145152610004AC17 /* OCTET_STRING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OCTET_STRING.c; sourceTree = "<group>"; };
+		4A2D4E97145152610004AC17 /* OCTET_STRING.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTET_STRING.h; sourceTree = "<group>"; };
+		4A2D4E98145152610004AC17 /* Payload.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Payload.c; sourceTree = "<group>"; };
+		4A2D4E99145152610004AC17 /* Payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payload.h; sourceTree = "<group>"; };
+		4A2D4E9A145152610004AC17 /* per_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_decoder.c; sourceTree = "<group>"; };
+		4A2D4E9B145152610004AC17 /* per_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_decoder.h; sourceTree = "<group>"; };
+		4A2D4E9C145152610004AC17 /* per_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_encoder.c; sourceTree = "<group>"; };
+		4A2D4E9D145152610004AC17 /* per_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_encoder.h; sourceTree = "<group>"; };
+		4A2D4E9E145152610004AC17 /* per_opentype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_opentype.c; sourceTree = "<group>"; };
+		4A2D4E9F145152610004AC17 /* per_opentype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_opentype.h; sourceTree = "<group>"; };
+		4A2D4EA0145152610004AC17 /* per_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_support.c; sourceTree = "<group>"; };
+		4A2D4EA1145152610004AC17 /* per_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_support.h; sourceTree = "<group>"; };
+		4A2D4EA2145152610004AC17 /* ReceiptAttribute.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ReceiptAttribute.c; sourceTree = "<group>"; };
+		4A2D4EA3145152610004AC17 /* ReceiptAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptAttribute.h; sourceTree = "<group>"; };
+		4A2D4EA4145152610004AC17 /* xer_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xer_decoder.c; sourceTree = "<group>"; };
+		4A2D4EA5145152610004AC17 /* xer_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xer_decoder.h; sourceTree = "<group>"; };
+		4A2D4EA6145152610004AC17 /* xer_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xer_encoder.c; sourceTree = "<group>"; };
+		4A2D4EA7145152610004AC17 /* xer_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xer_encoder.h; sourceTree = "<group>"; };
+		4A2D4EA8145152610004AC17 /* xer_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xer_support.c; sourceTree = "<group>"; };
+		4A2D4EA9145152610004AC17 /* xer_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xer_support.h; sourceTree = "<group>"; };
+		4A34B4D213FAD28400D1707E /* TTScoreBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTScoreBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A34B4D613FAD28400D1707E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4A34B4D913FAD28400D1707E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4A34B4DA13FAD28400D1707E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4A34B4DB13FAD28400D1707E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A34B4DE13FAD28400D1707E /* TTScoreBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTScoreBoard-Info.plist"; sourceTree = "<group>"; };
+		4A34B4E013FAD28400D1707E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A34B4E213FAD28400D1707E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A34B4E413FAD28400D1707E /* TTScoreBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTScoreBoard-Prefix.pch"; sourceTree = "<group>"; };
+		4A34B4E613FAD28400D1707E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4A34B4E813FAD28400D1707E /* TTScoreBoardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTScoreBoardAppDelegate.h; sourceTree = "<group>"; };
+		4A34B4E913FAD28400D1707E /* TTScoreBoardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTScoreBoardAppDelegate.m; sourceTree = "<group>"; };
+		4A34B4EC13FAD28400D1707E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4A34B4F313FAD28400D1707E /* TTScoreBoardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTScoreBoardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A34B4F413FAD28400D1707E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4A34B4FB13FAD28400D1707E /* TTScoreBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTScoreBoardTests-Info.plist"; sourceTree = "<group>"; };
+		4A34B4FD13FAD28400D1707E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A34B4FF13FAD28400D1707E /* TTScoreBoardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTScoreBoardTests.h; sourceTree = "<group>"; };
+		4A34B50113FAD28400D1707E /* TTScoreBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTScoreBoardTests.m; sourceTree = "<group>"; };
+		4A34B50B13FAD2A200D1707E /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		4A34B52113FAE16400D1707E /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		4A34B52713FAEB5D00D1707E /* tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile.png; sourceTree = "<group>"; };
+		4A40ED6A13FBDBA9008EF03D /* flip.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = flip.pdf; sourceTree = "<group>"; };
+		4A40ED6B13FBDBA9008EF03D /* minus.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = minus.pdf; sourceTree = "<group>"; };
+		4A8717D813FC51ED00FF1BB1 /* reset.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = reset.pdf; sourceTree = "<group>"; };
+		4AE6636B13FEE7FD00694A86 /* TTScoreBoard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TTScoreBoard.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A34B4CF13FAD28400D1707E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A34B4D713FAD28400D1707E /* Cocoa.framework in Frameworks */,
+				4A260BC813FFB94F009E341C /* QuartzCore.framework in Frameworks */,
+				4A1257221403C1FF00F642D1 /* Security.framework in Frameworks */,
+				4A12572C1403C28400F642D1 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A34B4EF13FAD28400D1707E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A34B4F513FAD28400D1707E /* SenTestingKit.framework in Frameworks */,
+				4A34B4F613FAD28400D1707E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A2D4E73145152610004AC17 /* asn1 */ = {
+			isa = PBXGroup;
+			children = (
+				4A2D4E74145152610004AC17 /* asn_application.h */,
+				4A2D4E75145152610004AC17 /* asn_codecs.h */,
+				4A2D4E76145152610004AC17 /* asn_codecs_prim.c */,
+				4A2D4E77145152610004AC17 /* asn_codecs_prim.h */,
+				4A2D4E78145152610004AC17 /* asn_internal.h */,
+				4A2D4E79145152610004AC17 /* asn_SET_OF.c */,
+				4A2D4E7A145152610004AC17 /* asn_SET_OF.h */,
+				4A2D4E7B145152610004AC17 /* asn_system.h */,
+				4A2D4E7C145152610004AC17 /* ber_decoder.c */,
+				4A2D4E7D145152610004AC17 /* ber_decoder.h */,
+				4A2D4E7E145152610004AC17 /* ber_tlv_length.c */,
+				4A2D4E7F145152610004AC17 /* ber_tlv_length.h */,
+				4A2D4E80145152610004AC17 /* ber_tlv_tag.c */,
+				4A2D4E81145152610004AC17 /* ber_tlv_tag.h */,
+				4A2D4E82145152610004AC17 /* BIT_STRING.c */,
+				4A2D4E83145152610004AC17 /* BIT_STRING.h */,
+				4A2D4E84145152610004AC17 /* constr_SEQUENCE.c */,
+				4A2D4E85145152610004AC17 /* constr_SEQUENCE.h */,
+				4A2D4E86145152610004AC17 /* constr_SET_OF.c */,
+				4A2D4E87145152610004AC17 /* constr_SET_OF.h */,
+				4A2D4E88145152610004AC17 /* constr_TYPE.c */,
+				4A2D4E89145152610004AC17 /* constr_TYPE.h */,
+				4A2D4E8A145152610004AC17 /* constraints.c */,
+				4A2D4E8B145152610004AC17 /* constraints.h */,
+				4A2D4E8C145152610004AC17 /* der_encoder.c */,
+				4A2D4E8D145152610004AC17 /* der_encoder.h */,
+				4A2D4E8E145152610004AC17 /* ethernet.c */,
+				4A2D4E8F145152610004AC17 /* ethernet.h */,
+				4A2D4E90145152610004AC17 /* INTEGER.c */,
+				4A2D4E91145152610004AC17 /* INTEGER.h */,
+				4A2D4E92145152610004AC17 /* NativeEnumerated.c */,
+				4A2D4E93145152610004AC17 /* NativeEnumerated.h */,
+				4A2D4E94145152610004AC17 /* NativeInteger.c */,
+				4A2D4E95145152610004AC17 /* NativeInteger.h */,
+				4A2D4E96145152610004AC17 /* OCTET_STRING.c */,
+				4A2D4E97145152610004AC17 /* OCTET_STRING.h */,
+				4A2D4E98145152610004AC17 /* Payload.c */,
+				4A2D4E99145152610004AC17 /* Payload.h */,
+				4A2D4E9A145152610004AC17 /* per_decoder.c */,
+				4A2D4E9B145152610004AC17 /* per_decoder.h */,
+				4A2D4E9C145152610004AC17 /* per_encoder.c */,
+				4A2D4E9D145152610004AC17 /* per_encoder.h */,
+				4A2D4E9E145152610004AC17 /* per_opentype.c */,
+				4A2D4E9F145152610004AC17 /* per_opentype.h */,
+				4A2D4EA0145152610004AC17 /* per_support.c */,
+				4A2D4EA1145152610004AC17 /* per_support.h */,
+				4A2D4EA2145152610004AC17 /* ReceiptAttribute.c */,
+				4A2D4EA3145152610004AC17 /* ReceiptAttribute.h */,
+				4A2D4EA4145152610004AC17 /* xer_decoder.c */,
+				4A2D4EA5145152610004AC17 /* xer_decoder.h */,
+				4A2D4EA6145152610004AC17 /* xer_encoder.c */,
+				4A2D4EA7145152610004AC17 /* xer_encoder.h */,
+				4A2D4EA8145152610004AC17 /* xer_support.c */,
+				4A2D4EA9145152610004AC17 /* xer_support.h */,
+			);
+			name = asn1;
+			path = "../@tmp/asn1";
+			sourceTree = "<group>";
+		};
+		4A34B4C713FAD28300D1707E = {
+			isa = PBXGroup;
+			children = (
+				4A2D4E73145152610004AC17 /* asn1 */,
+				4A34B4DC13FAD28400D1707E /* TTScoreBoard */,
+				4A34B4F913FAD28400D1707E /* TTScoreBoardTests */,
+				4A34B4D513FAD28400D1707E /* Frameworks */,
+				4A34B4D313FAD28400D1707E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A34B4D313FAD28400D1707E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A34B4D213FAD28400D1707E /* TTScoreBoard.app */,
+				4A34B4F313FAD28400D1707E /* TTScoreBoardTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A34B4D513FAD28400D1707E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A12572B1403C28400F642D1 /* IOKit.framework */,
+				4A1257211403C1FF00F642D1 /* Security.framework */,
+				4A34B4D613FAD28400D1707E /* Cocoa.framework */,
+				4A34B4F413FAD28400D1707E /* SenTestingKit.framework */,
+				4A34B4D813FAD28400D1707E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A34B4D813FAD28400D1707E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A260BC713FFB94F009E341C /* QuartzCore.framework */,
+				4A34B4D913FAD28400D1707E /* AppKit.framework */,
+				4A34B4DA13FAD28400D1707E /* CoreData.framework */,
+				4A34B4DB13FAD28400D1707E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4A34B4DC13FAD28400D1707E /* TTScoreBoard */ = {
+			isa = PBXGroup;
+			children = (
+				4A2D4E711451522B0004AC17 /* VAValidation.m */,
+				4A2D4E6F145152240004AC17 /* VAValidation.h */,
+				4A34B4E813FAD28400D1707E /* TTScoreBoardAppDelegate.h */,
+				4A34B4E913FAD28400D1707E /* TTScoreBoardAppDelegate.m */,
+				4A1256C31403C07E00F642D1 /* FSWindow.m */,
+				4A1256C51403C07E00F642D1 /* FSWindow.h */,
+				4A1256C41403C07E00F642D1 /* ToolBar.m */,
+				4A1256C61403C07E00F642D1 /* ToolBar.h */,
+				4A34B4EB13FAD28400D1707E /* MainMenu.xib */,
+				4A34B4DD13FAD28400D1707E /* Supporting Files */,
+			);
+			path = TTScoreBoard;
+			sourceTree = "<group>";
+		};
+		4A34B4DD13FAD28400D1707E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AE6636B13FEE7FD00694A86 /* TTScoreBoard.entitlements */,
+				4A260BB013FFABFB009E341C /* fullscreen.png */,
+				4A28D9981407C5BA00FA0469 /* middle.pdf */,
+				4A8717D813FC51ED00FF1BB1 /* reset.pdf */,
+				4A40ED6A13FBDBA9008EF03D /* flip.pdf */,
+				4A40ED6B13FBDBA9008EF03D /* minus.pdf */,
+				4A34B52713FAEB5D00D1707E /* tile.png */,
+				4A34B52113FAE16400D1707E /* digital-7.ttf */,
+				4A34B4DE13FAD28400D1707E /* TTScoreBoard-Info.plist */,
+				4A34B4DF13FAD28400D1707E /* InfoPlist.strings */,
+				4A34B4E213FAD28400D1707E /* main.m */,
+				4A34B4E413FAD28400D1707E /* TTScoreBoard-Prefix.pch */,
+				4A34B4E513FAD28400D1707E /* Credits.rtf */,
+				4A34B50B13FAD2A200D1707E /* Icon.icns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A34B4F913FAD28400D1707E /* TTScoreBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A34B4FF13FAD28400D1707E /* TTScoreBoardTests.h */,
+				4A34B50113FAD28400D1707E /* TTScoreBoardTests.m */,
+				4A34B4FA13FAD28400D1707E /* Supporting Files */,
+			);
+			path = TTScoreBoardTests;
+			sourceTree = "<group>";
+		};
+		4A34B4FA13FAD28400D1707E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A34B4FB13FAD28400D1707E /* TTScoreBoardTests-Info.plist */,
+				4A34B4FC13FAD28400D1707E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A34B4D113FAD28400D1707E /* TTScoreBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A34B50513FAD28400D1707E /* Build configuration list for PBXNativeTarget "TTScoreBoard" */;
+			buildPhases = (
+				4A34B4CE13FAD28400D1707E /* Sources */,
+				4A34B4CF13FAD28400D1707E /* Frameworks */,
+				4A34B4D013FAD28400D1707E /* Resources */,
+				4A34B52313FAE19800D1707E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTScoreBoard;
+			productName = TTScoreBoard;
+			productReference = 4A34B4D213FAD28400D1707E /* TTScoreBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A34B4F213FAD28400D1707E /* TTScoreBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A34B50813FAD28400D1707E /* Build configuration list for PBXNativeTarget "TTScoreBoardTests" */;
+			buildPhases = (
+				4A34B4EE13FAD28400D1707E /* Sources */,
+				4A34B4EF13FAD28400D1707E /* Frameworks */,
+				4A34B4F013FAD28400D1707E /* Resources */,
+				4A34B4F113FAD28400D1707E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A34B4F813FAD28400D1707E /* PBXTargetDependency */,
+			);
+			name = TTScoreBoardTests;
+			productName = TTScoreBoardTests;
+			productReference = 4A34B4F313FAD28400D1707E /* TTScoreBoardTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A34B4C913FAD28300D1707E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4A34B4CC13FAD28300D1707E /* Build configuration list for PBXProject "TTScoreBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A34B4C713FAD28300D1707E;
+			productRefGroup = 4A34B4D313FAD28400D1707E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A34B4D113FAD28400D1707E /* TTScoreBoard */,
+				4A34B4F213FAD28400D1707E /* TTScoreBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A34B4D013FAD28400D1707E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A34B4E113FAD28400D1707E /* InfoPlist.strings in Resources */,
+				4A34B4E713FAD28400D1707E /* Credits.rtf in Resources */,
+				4A34B4ED13FAD28400D1707E /* MainMenu.xib in Resources */,
+				4A34B50C13FAD2A200D1707E /* Icon.icns in Resources */,
+				4A34B52813FAEB5D00D1707E /* tile.png in Resources */,
+				4A40ED6C13FBDBA9008EF03D /* flip.pdf in Resources */,
+				4A40ED6D13FBDBA9008EF03D /* minus.pdf in Resources */,
+				4A8717D913FC51ED00FF1BB1 /* reset.pdf in Resources */,
+				4A260BB113FFABFB009E341C /* fullscreen.png in Resources */,
+				4A28D9991407C5BA00FA0469 /* middle.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A34B4F013FAD28400D1707E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A34B4FE13FAD28400D1707E /* InfoPlist.strings in Resources */,
+				4A34B50013FAD28400D1707E /* TTScoreBoardTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A34B4F113FAD28400D1707E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A34B4CE13FAD28400D1707E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A34B4E313FAD28400D1707E /* main.m in Sources */,
+				4A34B4EA13FAD28400D1707E /* TTScoreBoardAppDelegate.m in Sources */,
+				4A1256C71403C07E00F642D1 /* FSWindow.m in Sources */,
+				4A1256C81403C07E00F642D1 /* ToolBar.m in Sources */,
+				4A2D4E721451522B0004AC17 /* VAValidation.m in Sources */,
+				4A2D4EAA145152610004AC17 /* asn_codecs_prim.c in Sources */,
+				4A2D4EAB145152610004AC17 /* asn_SET_OF.c in Sources */,
+				4A2D4EAC145152610004AC17 /* ber_decoder.c in Sources */,
+				4A2D4EAD145152610004AC17 /* ber_tlv_length.c in Sources */,
+				4A2D4EAE145152610004AC17 /* ber_tlv_tag.c in Sources */,
+				4A2D4EAF145152610004AC17 /* BIT_STRING.c in Sources */,
+				4A2D4EB0145152610004AC17 /* constr_SEQUENCE.c in Sources */,
+				4A2D4EB1145152610004AC17 /* constr_SET_OF.c in Sources */,
+				4A2D4EB2145152610004AC17 /* constr_TYPE.c in Sources */,
+				4A2D4EB3145152610004AC17 /* constraints.c in Sources */,
+				4A2D4EB4145152610004AC17 /* der_encoder.c in Sources */,
+				4A2D4EB5145152610004AC17 /* ethernet.c in Sources */,
+				4A2D4EB6145152610004AC17 /* INTEGER.c in Sources */,
+				4A2D4EB7145152610004AC17 /* NativeEnumerated.c in Sources */,
+				4A2D4EB8145152610004AC17 /* NativeInteger.c in Sources */,
+				4A2D4EB9145152610004AC17 /* OCTET_STRING.c in Sources */,
+				4A2D4EBA145152610004AC17 /* Payload.c in Sources */,
+				4A2D4EBB145152610004AC17 /* per_decoder.c in Sources */,
+				4A2D4EBC145152610004AC17 /* per_encoder.c in Sources */,
+				4A2D4EBD145152610004AC17 /* per_opentype.c in Sources */,
+				4A2D4EBE145152610004AC17 /* per_support.c in Sources */,
+				4A2D4EBF145152610004AC17 /* ReceiptAttribute.c in Sources */,
+				4A2D4EC0145152610004AC17 /* xer_decoder.c in Sources */,
+				4A2D4EC1145152610004AC17 /* xer_encoder.c in Sources */,
+				4A2D4EC2145152610004AC17 /* xer_support.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A34B4EE13FAD28400D1707E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A34B50213FAD28400D1707E /* TTScoreBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A34B4F813FAD28400D1707E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A34B4D113FAD28400D1707E /* TTScoreBoard */;
+			targetProxy = 4A34B4F713FAD28400D1707E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A34B4DF13FAD28400D1707E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A34B4E013FAD28400D1707E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A34B4E513FAD28400D1707E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A34B4E613FAD28400D1707E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4A34B4EB13FAD28400D1707E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A34B4EC13FAD28400D1707E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4A34B4FC13FAD28400D1707E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A34B4FD13FAD28400D1707E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A34B50313FAD28400D1707E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lcrypto";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A34B50413FAD28400D1707E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lcrypto";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A34B50613FAD28400D1707E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = TTScoreBoard/TTScoreBoard.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTScoreBoard/TTScoreBoard-Prefix.pch";
+				INFOPLIST_FILE = "TTScoreBoard/TTScoreBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A34B50713FAD28400D1707E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = TTScoreBoard/TTScoreBoard.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTScoreBoard/TTScoreBoard-Prefix.pch";
+				INFOPLIST_FILE = "TTScoreBoard/TTScoreBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4A34B50913FAD28400D1707E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TTScoreBoard.app/Contents/MacOS/TTScoreBoard";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTScoreBoard/TTScoreBoard-Prefix.pch";
+				INFOPLIST_FILE = "TTScoreBoardTests/TTScoreBoardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4A34B50A13FAD28400D1707E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TTScoreBoard.app/Contents/MacOS/TTScoreBoard";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTScoreBoard/TTScoreBoard-Prefix.pch";
+				INFOPLIST_FILE = "TTScoreBoardTests/TTScoreBoardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A34B4CC13FAD28300D1707E /* Build configuration list for PBXProject "TTScoreBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A34B50313FAD28400D1707E /* Debug */,
+				4A34B50413FAD28400D1707E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A34B50513FAD28400D1707E /* Build configuration list for PBXNativeTarget "TTScoreBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A34B50613FAD28400D1707E /* Debug */,
+				4A34B50713FAD28400D1707E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A34B50813FAD28400D1707E /* Build configuration list for PBXNativeTarget "TTScoreBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A34B50913FAD28400D1707E /* Debug */,
+				4A34B50A13FAD28400D1707E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A34B4C913FAD28300D1707E /* Project object */;
+}

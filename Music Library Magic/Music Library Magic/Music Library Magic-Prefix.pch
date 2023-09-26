@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Music Library Magic' target in the 'Music Library Magic' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

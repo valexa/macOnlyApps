@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'Memory Magic' target in the 'Memory Magic' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#define DEG2RAD(angle) angle*M_PI/180.0
+#define RAD2DEG(radians) radians*180.0/M_PI
+
+#define RED_COLOR [NSColor colorWithCalibratedRed:0.65 green:0.51 blue:0.37 alpha:1.0]
+#define RED1_COLOR [NSColor colorWithCalibratedRed:0.55 green:0.51 blue:0.37 alpha:1.0]
+#define ORANGE_COLOR [NSColor colorWithCalibratedRed:0.68 green:0.63 blue:0.42 alpha:1.0]
+#define ORANGE1_COLOR [NSColor colorWithCalibratedRed:0.58 green:0.63 blue:0.42 alpha:1.0]
+#define BLUE_COLOR [NSColor colorWithCalibratedRed:0.60 green:0.70 blue:0.80 alpha:1.0]
+#define GREEN_COLOR [NSColor colorWithCalibratedRed:0.61 green:0.82 blue:0.72 alpha:1.0]
+#define GREEN1_COLOR [NSColor colorWithCalibratedRed:0.50 green:0.80 blue:0.70 alpha:1.0]
+#define LGRAY_COLOR [NSColor colorWithCalibratedRed:0.88 green:0.88 blue:0.88 alpha:1.0]
+#define LBLUE_COLOR [NSColor colorWithCalibratedRed:0.23 green:0.27 blue:0.70 alpha:1.0]
+#define MEM_FILL @"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"

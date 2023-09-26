@@ -1,0 +1,14 @@
+/* 
+   Localizable.strings
+   OSXCommander
+
+   Created by Vlad Alexa on 11/5/09.
+   Copyright 2009 __MyCompanyName__. All rights reserved.
+ */
+
+
+//section
+"3F_TAP_TO_DASHBOARD" = "Dashboard";
+"3F_TAP_TO_EXPOSE_ALL_WINDOW" = "Exposé All Windows";
+"3F_TAP_TO_EXPOSE_APP_WINDOW" = "Exposé Application Windows";
+"3F_TAP_TO_EXPOSE_DESKTOP" = "Exposé Desktop";

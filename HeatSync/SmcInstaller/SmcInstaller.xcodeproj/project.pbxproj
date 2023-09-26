@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A813BF413098A7B00BFA223 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A813BF313098A7B00BFA223 /* Cocoa.framework */; };
+		4A813BFE13098A7B00BFA223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A813BFC13098A7B00BFA223 /* InfoPlist.strings */; };
+		4A813C0113098A7B00BFA223 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A813C0013098A7B00BFA223 /* main.m */; };
+		4A813C0413098A7B00BFA223 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A813C0213098A7B00BFA223 /* Credits.rtf */; };
+		4A813C0713098A7B00BFA223 /* SmcInstallerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A813C0613098A7B00BFA223 /* SmcInstallerAppDelegate.m */; };
+		4A813C0A13098A7B00BFA223 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A813C0813098A7B00BFA223 /* MainMenu.xib */; };
+		4A813C3313098ED200BFA223 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A813C3213098ED200BFA223 /* Security.framework */; };
+		4A813C3513098EDD00BFA223 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A813C3413098EDD00BFA223 /* IOKit.framework */; };
+		4A813C3713098EEB00BFA223 /* smc in Resources */ = {isa = PBXBuildFile; fileRef = 4A813C3613098EEB00BFA223 /* smc */; };
+		4A813C3C13098EF900BFA223 /* smc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A813C3813098EF900BFA223 /* smc.c */; };
+		4A813C3D13098EF900BFA223 /* smcWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A813C3B13098EF900BFA223 /* smcWrapper.m */; };
+		4A813C3F13098F1D00BFA223 /* package.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4A813C3E13098F1D00BFA223 /* package.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A813BEF13098A7B00BFA223 /* SmcInstaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmcInstaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A813BF313098A7B00BFA223 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4A813BF613098A7B00BFA223 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4A813BF813098A7B00BFA223 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A813BFB13098A7B00BFA223 /* SmcInstaller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmcInstaller-Info.plist"; sourceTree = "<group>"; };
+		4A813BFD13098A7B00BFA223 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A813BFF13098A7B00BFA223 /* SmcInstaller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmcInstaller-Prefix.pch"; sourceTree = "<group>"; };
+		4A813C0013098A7B00BFA223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A813C0313098A7B00BFA223 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4A813C0513098A7B00BFA223 /* SmcInstallerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmcInstallerAppDelegate.h; sourceTree = "<group>"; };
+		4A813C0613098A7B00BFA223 /* SmcInstallerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmcInstallerAppDelegate.m; sourceTree = "<group>"; };
+		4A813C0913098A7B00BFA223 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4A813C3213098ED200BFA223 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4A813C3413098EDD00BFA223 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		4A813C3613098EEB00BFA223 /* smc */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = smc; path = "../../@plugins/HeatSync/smc"; sourceTree = "<group>"; };
+		4A813C3813098EF900BFA223 /* smc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = smc.c; path = "../../@plugins/HeatSync/smc.c"; sourceTree = "<group>"; };
+		4A813C3913098EF900BFA223 /* smc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = smc.h; path = "../../@plugins/HeatSync/smc.h"; sourceTree = "<group>"; };
+		4A813C3A13098EF900BFA223 /* smcWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = smcWrapper.h; path = "../../@plugins/HeatSync/smcWrapper.h"; sourceTree = "<group>"; };
+		4A813C3B13098EF900BFA223 /* smcWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = smcWrapper.m; path = "../../@plugins/HeatSync/smcWrapper.m"; sourceTree = "<group>"; };
+		4A813C3E13098F1D00BFA223 /* package.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = package.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A813BEC13098A7B00BFA223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A813BF413098A7B00BFA223 /* Cocoa.framework in Frameworks */,
+				4A813C3313098ED200BFA223 /* Security.framework in Frameworks */,
+				4A813C3513098EDD00BFA223 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A813BE413098A7B00BFA223 = {
+			isa = PBXGroup;
+			children = (
+				4A813C1013098AC300BFA223 /* Classes */,
+				4A813BFA13098A7B00BFA223 /* Supporting Files */,
+				4A813BF213098A7B00BFA223 /* Frameworks */,
+				4A813BF013098A7B00BFA223 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A813BF013098A7B00BFA223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A813BEF13098A7B00BFA223 /* SmcInstaller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A813BF213098A7B00BFA223 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A813C3413098EDD00BFA223 /* IOKit.framework */,
+				4A813C3213098ED200BFA223 /* Security.framework */,
+				4A813BF313098A7B00BFA223 /* Cocoa.framework */,
+				4A813BF513098A7B00BFA223 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A813BF513098A7B00BFA223 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A813BF613098A7B00BFA223 /* AppKit.framework */,
+				4A813BF813098A7B00BFA223 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4A813BFA13098A7B00BFA223 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A813C3E13098F1D00BFA223 /* package.icns */,
+				4A813C3613098EEB00BFA223 /* smc */,
+				4A813BFB13098A7B00BFA223 /* SmcInstaller-Info.plist */,
+				4A813BFC13098A7B00BFA223 /* InfoPlist.strings */,
+				4A813BFF13098A7B00BFA223 /* SmcInstaller-Prefix.pch */,
+				4A813C0013098A7B00BFA223 /* main.m */,
+				4A813C0213098A7B00BFA223 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A813C1013098AC300BFA223 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A813C3813098EF900BFA223 /* smc.c */,
+				4A813C3913098EF900BFA223 /* smc.h */,
+				4A813C3A13098EF900BFA223 /* smcWrapper.h */,
+				4A813C3B13098EF900BFA223 /* smcWrapper.m */,
+				4A813C0513098A7B00BFA223 /* SmcInstallerAppDelegate.h */,
+				4A813C0613098A7B00BFA223 /* SmcInstallerAppDelegate.m */,
+				4A813C0813098A7B00BFA223 /* MainMenu.xib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A813BEE13098A7B00BFA223 /* SmcInstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A813C0D13098A7B00BFA223 /* Build configuration list for PBXNativeTarget "SmcInstaller" */;
+			buildPhases = (
+				4A813BEB13098A7B00BFA223 /* Sources */,
+				4A813BEC13098A7B00BFA223 /* Frameworks */,
+				4A813BED13098A7B00BFA223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmcInstaller;
+			productName = SmcInstaller;
+			productReference = 4A813BEF13098A7B00BFA223 /* SmcInstaller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A813BE613098A7B00BFA223 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4A813BE913098A7B00BFA223 /* Build configuration list for PBXProject "SmcInstaller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A813BE413098A7B00BFA223;
+			productRefGroup = 4A813BF013098A7B00BFA223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A813BEE13098A7B00BFA223 /* SmcInstaller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A813BED13098A7B00BFA223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A813BFE13098A7B00BFA223 /* InfoPlist.strings in Resources */,
+				4A813C0413098A7B00BFA223 /* Credits.rtf in Resources */,
+				4A813C0A13098A7B00BFA223 /* MainMenu.xib in Resources */,
+				4A813C3713098EEB00BFA223 /* smc in Resources */,
+				4A813C3F13098F1D00BFA223 /* package.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A813BEB13098A7B00BFA223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A813C0113098A7B00BFA223 /* main.m in Sources */,
+				4A813C0713098A7B00BFA223 /* SmcInstallerAppDelegate.m in Sources */,
+				4A813C3C13098EF900BFA223 /* smc.c in Sources */,
+				4A813C3D13098EF900BFA223 /* smcWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A813BFC13098A7B00BFA223 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A813BFD13098A7B00BFA223 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A813C0213098A7B00BFA223 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A813C0313098A7B00BFA223 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4A813C0813098A7B00BFA223 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A813C0913098A7B00BFA223 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A813C0B13098A7B00BFA223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A813C0C13098A7B00BFA223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A813C0E13098A7B00BFA223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Vlad Alexa";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmcInstaller-Prefix.pch";
+				INFOPLIST_FILE = "SmcInstaller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A813C0F13098A7B00BFA223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Vlad Alexa";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmcInstaller-Prefix.pch";
+				INFOPLIST_FILE = "SmcInstaller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A813BE913098A7B00BFA223 /* Build configuration list for PBXProject "SmcInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A813C0B13098A7B00BFA223 /* Debug */,
+				4A813C0C13098A7B00BFA223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A813C0D13098A7B00BFA223 /* Build configuration list for PBXNativeTarget "SmcInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A813C0E13098A7B00BFA223 /* Debug */,
+				4A813C0F13098A7B00BFA223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A813BE613098A7B00BFA223 /* Project object */;
+}
